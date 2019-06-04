@@ -117,6 +117,8 @@ public class RNFluidicSlider extends ViewGroupManager<ViewGroup> {
 
         _position = initialPosition;
         _initialPosition = initialPosition;
+        
+        slider.invalidate();
     }
 
 
