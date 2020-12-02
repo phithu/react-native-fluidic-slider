@@ -1,0 +1,6 @@
+framework module Pods_RNFluidicSlider {
+  umbrella header "Pods-RNFluidicSlider-umbrella.h"
+
+  export *
+  module * { export * }
+}
