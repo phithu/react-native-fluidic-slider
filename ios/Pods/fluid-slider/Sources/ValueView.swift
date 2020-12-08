@@ -70,6 +70,7 @@ class ValueView : UIView {
 				paragraph.alignment = .center
 				string.addAttribute(.paragraphStyle, value: paragraph, range: NSMakeRange(0, string.length))
 				textLabel.attributedText = string
+                textLabel.textColor = UIColor.white
 			} else {
 				textLabel.attributedText = nil
 			}
