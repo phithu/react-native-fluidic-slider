@@ -1,22 +1,16 @@
 package px.fluidicslider;
 
 import android.graphics.Color;
-import android.support.constraint.ConstraintLayout;
-import android.util.Log;
-import android.view.LayoutInflater;
 import android.view.ViewGroup;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import com.facebook.react.uimanager.annotations.ReactProp;
 import com.facebook.react.uimanager.UIManagerModule;
-
 import com.facebook.react.uimanager.ThemedReactContext;
 import com.facebook.react.uimanager.ViewGroupManager;
 import com.ramotion.fluidslider.FluidSlider;
-
-import kotlin.Function;
 import kotlin.Unit;
 import kotlin.jvm.functions.Function0;
 import kotlin.jvm.functions.Function1;
-
 
 public class RNFluidicSlider extends ViewGroupManager<ViewGroup> {
 
